@@ -143,7 +143,7 @@
 </section> -->
 <!--end-->
 <!--spacial offer section-->
-<section class="spacial_offer_section">
+<section class="spacial_offer_section" style="display: none;">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -186,7 +186,7 @@
 </section>
 <!--end-->
 <!--Flight Recommendations section start-->
-<section class="Recommendations_flight">
+<section class="Recommendations_flight" style="display: none;">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -253,7 +253,7 @@
 </section>
 <!--end-->
 <!--top Destination-->
-<section class="top_destination">
+<section class="top_destination" style="display: none;">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -297,7 +297,7 @@
 </section>
 <!--end-->
 <!--flight hotel deals-->
-    <section class="flight_hotel_deals">
+    <section class="flight_hotel_deals" style="display: none;">
         <div class="container">
             <div class="row">
             <?php echo $flight_details['flight_deal']; ?>
@@ -306,7 +306,7 @@
     </section>
 <!--end-->
 <!--client review section code start-->
-<section class="client_reviewsc">
+<section class="client_reviewsc" style="display: none;">
     <div class="container">
         <div class="col-12">
             <div class="heading_box">
@@ -349,7 +349,7 @@
 </section>
 <!--client review section code end-->
 <!--Articles section code start-->
-    <section class="articles_section">
+    <section class="articles_section" style="display: none;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -393,6 +393,33 @@
 </form>
         </div>
     </section>
+
+<section class="client_reviewsc">
+<div class="container">
+<div class="mb-4">
+<h2 class="text-center titledown-line relative h1">Popular <!-- --><b class="text-orange-500">Airlines</b></h2></div>
+<div class="row">
+    <div class="mb-4 col-xl-3 col-lg-4 col-sm-6 col-12">
+        <div class="shadow-facmini rounded-xl p-3 p-md-4 bg-white h-100">
+            <div class="blogaddalist-inner d-flex flex-column justify-content-start align-items-start h-100">
+                <div class="flex-grow-1 text-center w-100"><img src="https://1000logos.net/wp-content/uploads/2021/04/Air-Arabia-logo.png" alt=" Air Arabia-g9" width="60" height="60" class="rounded border  border-gray-200-color d-inline-block"><span class="h4 title d-block mb-3 mt-2"> Air Arabia<!-- -->-<!-- -->g9<!-- --></span></div>
+                <div
+                class="w-100 text-center">
+                    <div class="d-inline-block">
+                        <a class=" btn btn-light shadow-0 border font-semibold w-100" href="/flights/air-arabia-g9">
+                            <!-- --><span class="text-sm">Read More</span></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+</div>
+</div>
+</section>
 <!--end-->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
