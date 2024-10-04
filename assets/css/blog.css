@@ -1,0 +1,353 @@
+:root {
+    --prim-color: #11172b;
+    --main_color: red;
+}
+
+.blogBanner {
+    background-image: url('../images/blog_banner.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    position: relative;
+    margin-top: 50px;
+}
+
+.blogBanner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(280deg, rgba(255, 255, 255, 0) 0%, var(--prim-color) 100%);
+}
+
+.blogBanner .heading {
+    position: relative;
+    z-index: 1;
+}
+
+.blogBanner .heading h1 {
+    font-size: 32px;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.blogBanner .heading a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.blogList,
+.blogDetail {
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.blogList .cruise_list .wrapper img {
+    height: 220px;
+}
+
+.blogList .cruise_list .wrapper h5 {
+    font-family: Roboto;
+}
+
+.blogList .cruise_list .wrapper p {
+    margin: 5px 0 0 0;
+    font-family: Poppins;
+    font-size: 14px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blogList .cruise_list {
+    border: 1px solid #cdcdcd;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100%;
+    /* margin-bottom: 10px; */
+    position: relative;
+    border-radius: 10px;
+}
+
+.blogList .cruise_list .date {
+    color: #404040;
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.blogList .cruise_list .cazInfo {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.blogList .cruise_list .cazInfo .blogLink {
+    color: var(--prim-color);
+    font-family: Roboto;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.blogList .cruise_list .cazInfo .blogLink:hover {
+    padding-right: 10px;
+}
+
+.blogList .cruise_list .cazInfo .blogLink i {
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.blogList .cruise_list .cazInfo .blogLink:hover i {
+    color: var(--prim-color);
+}
+
+
+.blogList .blogListdate {
+    position: absolute;
+    top: -30px;
+    left: 12px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0px 10px;
+    padding: 5px 10px;
+}
+
+.blogList .blogListdate .date {
+    color: #fff;
+    font-size: 16px !important;
+}
+
+.blogOptions .optionItem {
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.blogOptions .optionItem label {
+    display: block;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    position: relative;
+    width: max-content;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.blogOptions .optionItem label::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--prim-color);
+}
+
+.optionItem .categoryText {
+    background-color: #dfdfdf;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+    font-family: 'Rubik';
+    font-size: 14px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+
+.optionItem .latestPosts {
+    padding-left: 0;
+    list-style: none;
+}
+
+.optionItem .latestPosts li {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.optionItem .latestPosts li .imgWrapper {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.optionItem .latestPosts li .imgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.optionItem .latestPosts li .content {
+    padding-top: 0;
+}
+
+.optionItem .latestPosts li .content h5 {
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--prim-color);
+}
+
+.optionItem .latestPosts li .content p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    color: #3c3c3c;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.optionItem .latestPosts li .content p i {
+    color: var(--main_color);
+}
+
+.optionItem .searchBar {
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.optionItem .searchBar input[type="search"] {
+    width: 100%;
+}
+
+.optionItem .searchBar button {
+    border: none;
+    background-color: var(--prim-color);
+    color: #fff;
+    width: 50px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.optionItem .searchBar input {
+    height: 100%;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.blogDetail .imgWrapper {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.blogDetail .imgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blogDetail .content {
+    padding-top: 20px;
+}
+
+.blogDetail .content h1 {
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Roboto;
+    color: var(--prim-color);
+}
+
+.blogDetail .content .date {
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: var(--prim-color);
+    padding-bottom: 10px;
+}
+
+.blogDetail .content .date i {
+    color: var(--main_color);
+}
+
+@media only screen and (max-width: 991px) {
+    .blogList .blogListdate {
+        left: 11px;
+    }
+}
+
+.cruise_slider .cruise_list {
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 425px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.cruise_list .wrapper img {
+    height: 200px;
+    object-fit: cover;
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+.cruise_list figcaption {
+    padding: 15px 15px;
+}
+
+.cruise_list figcaption h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--prim-color);
+}
+
+.cruise_list figcaption span {
+    font-weight: 600;
+    font-size: 24px;
+    color: green;
+}
+
+.cruise_list .wrapper h4 {
+    color: var(--prim-color);
+}
+
+.cruise_list .wrapper p {
+    margin: 10px 0 0 0;
+    line-height: 20px;
+    color: #000;
+}
+
+.cruise_list .wrapper .link {
+    color: #fff;
+    background-color: var(--prim-color);
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}
+
+.cruise_list .imgWrapper {
+    width: 120px;
+    height: 60px;
+}
+
+.cruise_list .imgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

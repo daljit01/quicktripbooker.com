@@ -1,0 +1,114 @@
+@media (max-width:991px) {
+    .greyhound_aboutsection .postion_imagebox {
+        top: revert;
+        right: 0px;
+        width: 210px;
+        height: 220px;
+        bottom: 0px;
+    }
+
+    .greyhound_aboutsection .image_box {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .greyhound_aboutsection .content_box ul li {
+        height: revert;
+    }
+
+    .greyhound_aboutsection .content_box ul {
+        column-count: 1;
+    }
+
+    .greyhoundbanner_section .text_box a {
+        width: 100%;
+    }
+
+    .greyhoundbanner_section .text_box {
+        width: 100%;
+    }
+
+    .greyhoundbanner_section .text_box a {
+        width: 85%;
+    }
+
+    .greyhoundbanner_section {
+        padding: 80px 0;
+        height: auto;
+    }
+
+    .greyhound_services_section .main_box {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .cta1 .ctaWrapper {
+        height: auto !important;
+    }
+
+    .cta1 .content h3 {
+        font-size: 30px;
+    }
+
+    .homePage {
+        height: auto;
+        padding: 70px 0 20px 0;
+    }
+
+    .homePage .content h1 {
+        font-size: 34px;
+    }
+
+    .trendingRoutes .nav-tabs .nav-link {
+        font-size: 16px;
+    }
+
+    .trendingRoutes .content ul {
+        column-count: 1;
+    }
+
+    .cta2 {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .cta2 .content h2 {
+        font-size: 30px;
+    }
+
+    .cta2 .content p {
+        font-size: 18px;
+    }
+
+    .trendingRoutes .tab-content {
+        padding: inherit;
+    }
+
+    .trendingRoutes.alt .content ul li {
+        padding: inherit;
+        margin-top: 15px;
+    }
+
+    .trendingRoutes.alt .nav-tabs .nav-link {
+        font-size: 16px;
+    }
+
+    .trendingRoutes .nav-tabs .nav-link span {
+        font-size: 13px;
+    }
+
+    .trendingRoutes.alt .content ul li p:last-child {
+        font-size: 14px;
+    }
+
+    .fillerDestinations {
+        padding: 30px 0;
+    }
+
+    .fillerDestinations .wrapper {
+        padding: 15px;
+        margin-left: inherit;
+    }
+
+    .fillerDestinations .wrapper .content ul a {
+        text-wrap: wrap;
+    }
+}

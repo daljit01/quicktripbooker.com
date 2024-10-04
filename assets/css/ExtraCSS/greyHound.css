@@ -1,0 +1,208 @@
+/*greyhoundbanner_section code start*/
+.greyhoundbanner_section {
+    background: url('../../images/greyhound/banner_greyhound_1.webp');
+    background-size: cover;
+    padding: 80px 0px;
+    position: relative;
+    height: 100vh;
+    z-index: 1;
+}
+
+.greyhoundbanner_section::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(87deg, #033c55, transparent);
+}
+
+.greyhoundbanner_section .text_box {
+    width: 65%;
+}
+
+.greyhoundbanner_section .text_box h1 {
+    font-family: var(--heading);
+    font-weight: 800;
+    color: #fff;
+}
+
+.greyhoundbanner_section .text_box h5 {
+    font-family: var(--heading);
+    font-weight: 400;
+    color: #fff;
+}
+
+.greyhoundbanner_section .text_box p {
+    color: #fff;
+    font-family: var(--paragraph);
+    font-weight: 300;
+}
+
+.greyhoundbanner_section .text_box h1 span {
+    color: var(--prim-color);
+}
+
+.greyhoundbanner_section .text_box a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    background: var(--prim-color);
+    width: 47%;
+    border-radius: 4px;
+    padding: 0px 0px 5px 20px;
+}
+
+.greyhoundbanner_section .text_box a i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.greyhoundbanner_section .text_box a h5 {
+    text-align: left;
+    font-size: 30px;
+    line-height: 1;
+    padding-left: 10px;
+}
+
+.greyhoundbanner_section .text_box a h5 span {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/*end*/
+/*greyhound_aboutsection code start*/
+.greyhound_aboutsection {
+    padding: 30px 0px;
+}
+
+.greyhound_aboutsection .content_box span {
+    color: var(--prim-color);
+    font-weight: 500;
+}
+
+.greyhound_aboutsection .content_box h2 {
+    font-weight: 800;
+    color: #000;
+}
+
+.greyhound_aboutsection .content_box ul {
+    list-style: none;
+    margin: 25px 0px 0px 0px;
+    padding: 0px;
+    column-count: 2;
+}
+
+.greyhound_aboutsection .content_box ul li {
+    font-weight: 600;
+    margin: 0px 0px 8px 0px;
+    height: 100px;
+}
+
+.greyhound_aboutsection .content_box ul li p {
+    padding-left: 31px;
+    font-family: var(--paragraph);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.greyhound_aboutsection .content_box ul li i {
+    color: var(--prim-color);
+    padding: 0px 10px 0px 0px;
+}
+
+.greyhound_aboutsection .content_box a {
+    text-decoration: none;
+    padding: 8px 25px;
+    background: var(--prim-color);
+    color: #fff;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+}
+
+.greyhound_aboutsection .image_box {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.greyhound_aboutsection .image_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.greyhound_aboutsection .reletive_box {
+    position: relative;
+}
+
+.greyhound_aboutsection .postion_imagebox {
+    position: absolute;
+    top: 40px;
+    right: -79px;
+    width: 228px;
+    height: 290px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 8px solid #fff;
+}
+
+.greyhound_aboutsection .postion_imagebox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*end*/
+/*greyhound_services_section code start*/
+.greyhound_services_section {
+    padding: 30px 0px;
+}
+
+.greyhound_services_section .heading_box {
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+
+.greyhound_services_section .heading_box h5 {
+    font-weight: 500;
+    color: var(--prim-color);
+}
+
+.greyhound_services_section .heading_box h2 {
+    font-weight: 800;
+    color: #000;
+}
+
+.greyhound_services_section .main_box {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 20px 20px 10px 20px;
+    height: 100%;
+    text-align: center;
+}
+
+.greyhound_services_section .main_box i {
+    font-size: 42px;
+    color: var(--prim-color);
+    margin-bottom: 10px;
+}
+
+.greyhound_services_section .main_box h4 {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.greyhound_services_section .main_box p {
+    font-family: Poppins;
+    font-size: 14px;
+
+}
+
+/*end*/

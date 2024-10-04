@@ -1,0 +1,26 @@
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+    z-index: 99999;
+}
+
+header .navbar-expand-lg .navbar-collapse {
+    justify-content: right !important;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    padding-left: 25px;
+    font-family: var(--heading);
+    font-weight: 500;
+    color: #000;
+}
+
+header .navbar-light .navbar-nav .nav-link.call_btn {
+    padding: 6px 20px;
+    background: #f0652b;
+    margin: 0px 0px 0px 30px;
+    color: #fff;
+    border-radius: 4px;
+}

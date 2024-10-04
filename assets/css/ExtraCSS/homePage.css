@@ -1,0 +1,355 @@
+.homePage {
+    background-image: url('../../images/main/Banner_01.webp');
+    background-position: center !important;
+    background-size: cover !important;
+    position: relative;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.homePage::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.homePage .container {
+    position: relative;
+    z-index: 1;
+}
+
+.homePage .content {
+    color: #fff;
+}
+
+.homePage .content h1 {
+    color: #fff;
+    padding: 10px 0;
+    font-size: 52px;
+}
+
+.homePage .content a {}
+
+
+
+.services .wrapper {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.services .iconWrapper {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #f0652b50;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--prim-color);
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.services .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.services .content p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.cta1 .ctaWrapper {
+    background-image: url('../../images/main/Banner_02.webp');
+    background-position: center !important;
+    background-size: cover !important;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta1 .ctaWrapper::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.cta1 .content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+
+.cta1 .content h3 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.cta1 .content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.trendingRoutes .content h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.trendingRoutes .content ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0px;
+    column-count: 2;
+}
+
+.trendingRoutes .content ul li {
+    padding-top: 25px;
+    font-family: var(--heading);
+    color: #000;
+}
+
+.trendingRoutes .content ul li i {
+    color: var(--prim-color);
+}
+
+.trendingRoutes .content a {
+    text-decoration: none;
+}
+
+
+.cta2 {
+    background-image: url('../../images/main/Banner_03.webp');
+    background-position: center !important;
+    background-size: cover !important;
+    height: 250px;
+    position: relative;
+}
+
+.cta2::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.cta2 .content {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.cta2 .content h2 {
+    font-size: 46px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.cta2 .content h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 5px;
+    width: 200px;
+    background-color: var(--prim-color);
+}
+
+.cta2 .content p {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+
+/* ------------------------ */
+.orangeButton {
+    background-color: var(--prim-color);
+    color: #fff !important;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.orangeButton:hover {
+    background-color: #202020;
+}
+
+.simpleCall {
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: Roboto;
+}
+
+.simpleCall:hover {
+    background-color: #202020;
+    color: #fff;
+}
+
+.bookBtn {
+    padding: 10px 20px;
+    background-color: var(--prim-color);
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--heading);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: max-content;
+    border: none;
+    font-weight: 600;
+}
+
+.bookBtn:hover {
+    background-color: #202020;
+    color: #fff;
+}
+
+.bookBtn .iconWrapper {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.heading span {
+    color: var(--prim-color);
+}
+
+.heading h2 {
+    padding-bottom: 15px;
+    font-weight: 800;
+    /* font-family: var(--heading); */
+    color: #000;
+}
+
+.content h1 {
+    font-family: var(--heading);
+}
+
+.content h2 {
+    font-family: var(--heading);
+}
+
+.content h3 {
+    font-family: var(--heading);
+}
+
+.content h5 {
+    font-family: var(--heading);
+}
+
+.content span {
+    color: var(--prim-color);
+}
+
+.content p {
+    font-family: var(--paragraph);
+}
+
+.fillerDestinations {
+    background-color: #202020;
+    padding: 40px;
+}
+
+.fillerDestinations .imgWrapper {
+    width: 100%;
+    height: 500px;
+    border-radius: 30px 0 0 30px;
+    overflow: hidden;
+}
+
+.fillerDestinations .imgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.fillerDestinations .wrapper {
+    background-color: var(--prim-color);
+    height: 100%;
+    border-radius: 30px;
+    margin-left: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.fillerDestinations .wrapper .content h1 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.fillerDestinations .wrapper .content h4 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.fillerDestinations ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fillerDestinations .wrapper .content ul a {
+    color: #fff;
+    text-wrap: nowrap;
+    /* text-decoration: underline !important; */
+}
+
+.faq .wrapper {
+    background-color: #f0652b30;
+    border-radius: 20px;
+    padding: 25px;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.faq .content p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.faq .heading h2 {
+    text-transform: capitalize;
+}
